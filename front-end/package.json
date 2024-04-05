@@ -1,5 +1,5 @@
 {
-  "name": "chat-app",
+  "name": "chat-app-front-end",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
+    "next": "14.1.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.3"
+    "socket.io-client": "^4.7.4"
   }
 }
