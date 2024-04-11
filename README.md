@@ -2,10 +2,22 @@
 
 This is a simple chat application based on the late Omegle. It connects two random users on the same chat room.
 
+## Screenshots
+
+### Active chat panel
+![image](https://github.com/jvpdls/chat-app/assets/32807182/9293daf0-e32d-40b0-a654-e183ff438592)
+
+### Chat panel state example
+![image](https://github.com/jvpdls/chat-app/assets/32807182/30a6f22c-4068-4917-a3aa-97f1e6c0786f)
+
+### Page example
+![image](https://github.com/jvpdls/chat-app/assets/32807182/237f426d-5638-4178-8c25-58df8a1312fe)
+
 ## Technologies
 
 - Next.js 14.1.3
 - Socket.io ^4.7.4
+- [Bulma.io](https://bulma.io/)
 
 ## Getting started
 
