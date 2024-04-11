@@ -3,7 +3,7 @@ class MetaDataUtils {
     return `${title} | Chat App`;
   }
   setPageCanonical(slug) {
-    const baseUrl = process.env.BASE_URL;
+    const baseUrl = process.env.CHAT_BASE_URL;
     return `${baseUrl}/${slug}`;
   }
 }

@@ -1,6 +1,6 @@
 import Hero from "./components/layouts/PageLayout/Hero";
 import HomeContent from "./components/pages/home/HomeContent";
-import metaDataUtils from "./utils/metaDataUtils";
+import metaDataUtils from "./utils/metaData";
 
 export const metadata = {
   title: metaDataUtils.setPageTitle("Home"),
@@ -18,8 +18,8 @@ export default function Home() {
 
   return (
     <div>
-      <Hero heroProps={heroProps}/>
-      <HomeContent/>
+      <Hero heroProps={heroProps} />
+      <HomeContent />
     </div>
-  )
+  );
 }

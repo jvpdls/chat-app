@@ -4,10 +4,13 @@ const PORT = 4000;
 const http = require("http").Server(app);
 const cors = require("cors");
 const socketHandlers = require("./handlers/socketHandlers");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: process.env.CHAT_BASE_URL,
   },
 });
 

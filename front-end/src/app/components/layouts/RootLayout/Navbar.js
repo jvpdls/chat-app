@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const navbarBurger = useRef(null);
   const menuItemsRef = useRef(null);
-  
+
   const menuItems = [
     { label: "Home", url: "/", location: "start" },
     { label: "About", url: "/about-us", location: "start" },
@@ -47,7 +47,9 @@ export default function Navbar() {
     >
       <div className="container">
         <div className="navbar-brand">
-          <p className="navbar-item title is-5 mb-0">💬 Chat App</p>
+          <p className="navbar-item title is-5 mb-0">
+            <a href="/">💬 Chat App</a>
+          </p>
 
           <a
             role="button"

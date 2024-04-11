@@ -26,6 +26,10 @@ export default function ChatPage() {
     const socket = socketIO.connect(apiUrl);
     setSocket(socket);
 
+    socket.on("connect_error", () => {
+      setChat("connectionFailed");
+    });
+
     socket.on("paired", () => {
       setChat("paired");
     });

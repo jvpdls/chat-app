@@ -1,4 +1,4 @@
-import metaDataUtils from "../utils/metaDataUtils";
+import metaDataUtils from "../utils/metaData";
 import ChatPage from "./page";
 
 export const metadata = {

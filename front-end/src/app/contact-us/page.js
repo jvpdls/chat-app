@@ -1,5 +1,5 @@
 import PageLayout from "../layouts/PageLayout";
-import metaDataUtils from "../utils/metaDataUtils";
+import metaDataUtils from "../utils/metaData";
 
 export const metadata = {
   title: metaDataUtils.setPageTitle("Contact Us"),
