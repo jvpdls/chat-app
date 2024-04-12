@@ -4,7 +4,7 @@ This is a simple chat application based on the late Omegle. It connects two rand
 
 ## Screenshots
 
-### Active chat panel
+### Active chat panel example
 ![image](https://github.com/jvpdls/chat-app/assets/32807182/9293daf0-e32d-40b0-a654-e183ff438592)
 
 ### Chat panel state example
